@@ -1,0 +1,76 @@
+<!--nutrition hero section-->
+<section class="home" id="home">
+    <div class="content">
+        <h3><span class="kane">WELCOME</span> to the place full of healthy <span class="kane">FOOD</span></h3>
+        <!--Blaise Remember to add changing sentences here-->
+        <img src="maggi.jpg" class="circles left">
+        <a href="#angered" class="btn" id="shen">Get A Free Nutritional Plan</a>
+
+        <img src="circle.jpg" class="circles right" style="color: rgb(11, 116, 158);">
+        <div class="hero-media">
+            <video autoplay muted loop class="taze">
+
+                <source src="https://res.cloudinary.com/dhjlzes2n/video/upload/v1745073609/hanza_imc45y.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+</section>
+ <!--Nutrition hero styles-->
+ .home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(foods.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home .content {
+    max-width: 60rem;
+    text-align: center;
+}
+.home .content h3 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: var(--white);
+    padding-bottom: 3rem;
+    margin-top: 0;
+   transform: translateY(25%);
+}
+.circles {
+    height: 30vh;
+    width: 10vw;
+    object-fit: cover;
+    border: 1rem solid var( --primary);
+    border-radius: 0 5rem 0 5rem;
+    opacity: 0.8;
+}
+.left {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+.hero-media {
+    flex: 0 0 45%;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .hero-media video {
+    width: 70%;
+    height: 20%;
+    border-radius: 10%;
+    box-shadow: 0 4px 10px rgb(255, 253, 253);
+    margin-top: 2rem;
+  }
+  .hero-media video:hover {
+    transform: scale(1.01);
+  }
+.right {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
